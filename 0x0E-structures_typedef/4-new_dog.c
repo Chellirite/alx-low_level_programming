@@ -55,4 +55,4 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(new->name);
 		free(new);
 	}
-return (new);}
+return (new); }
